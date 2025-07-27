@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: smartclassroom
+Version: 1.0
+Requires-Python: >=3.8
+Requires-Dist: firebase-admin>=6.2.0
+Requires-Dist: python-dotenv>=1.0.0
+Requires-Dist: opencv-python-headless>=4.7.0
+Requires-Dist: numpy>=1.24.0
+Requires-Dist: serial>=0.0.97
+Requires-Dist: tensorflow>=2.10.0
+Requires-Dist: flask>=2.2.0
+Dynamic: requires-dist
+Dynamic: requires-python

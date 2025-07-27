@@ -1,0 +1,17 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="smartclassroom",
+    version="1.0",
+    packages=find_packages(),
+    install_requires=[
+        'firebase-admin>=6.2.0',
+        'python-dotenv>=1.0.0',
+        'opencv-python-headless>=4.7.0',
+        'numpy>=1.24.0',
+        'serial>=0.0.97',
+        'tensorflow>=2.10.0',
+        'flask>=2.2.0'
+    ],
+    python_requires='>=3.8',
+)
